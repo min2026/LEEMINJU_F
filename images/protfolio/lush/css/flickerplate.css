@@ -266,9 +266,9 @@ background-size: cover}
 .flickerplate.animate-scroller-slide ul.flicks {
     position: auto
 }
-@media (max-width: 1279px)
+@media (max-width: 900px)
 {
-.flickerplate{padding-top: calc(1028/750*100%)}
+
 .flickerplate ul.flicks > li:nth-child(1){background-image: url(../img/1_m.jpg);         
 background-size: cover}
 .flickerplate ul.flicks > li:nth-child(2){background-image: url(../img/2_m.jpg);

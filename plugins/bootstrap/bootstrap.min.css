@@ -773,6 +773,8 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
+.col-lg-8{left: 0; right: 0; margin: 0 auto; width: auto}
+.col-lg-6{left: 0; right: 0; margin: 0 auto; width: 100%}
 
 .col {
     -ms-flex-preferred-size: 0;
@@ -6376,7 +6378,7 @@ button.close {
 }
 
 .container_1 {
-    width: 1700px;
+    width: 80%;
     margin: 0 auto
 }
 
@@ -9578,7 +9580,8 @@ button.bg-dark:hover {
 
 .font-weight-bold {
     font-weight: 700 !important;
-    font-size: 95px
+    font-size: 5vw;
+   
 }
 
 .font-italic {
@@ -9787,4 +9790,10 @@ a.text-dark:hover {
         color: inherit;
         border-color: #dee2e6
     }
+}
+@media (min-width: 900px)
+.container {
+    max-width: 540px;
+    
+    
 }

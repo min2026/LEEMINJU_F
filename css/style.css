@@ -207,8 +207,9 @@ img {
 }
 
 .mr-lg-1 img {
-    width: 80%;
+    width: 60%;
 }
+
 
 .mr-lg-1:hover img {
     transform: rotate(180deg);
@@ -271,16 +272,30 @@ a:hover {
 
 
 .mr-lg-2 {
-    padding-left: 220px;
+    float: right
 }
 
-.mr-lg-4 {
-    padding-left: 220px;
+.d-flex_1,
+.d-flex_2,
+.d-flex_3,
+.d-flex_4 {
+    display: flex !important;
+    padding: 20px 0
 }
 
+.d-flex_2,
+.d-flex_4 {
+    float: right;
+}
+
+.d-flex_3,
+.d-flex_4 {
+    padding-top: 50px
+}
+.mr-lg-1{width: 30%; display: inline-block}
 .mr-lg-1_text {
-    padding-top: 20px;
     line-height: 1.5;
+width: 68%; display: inline-block
 }
 
 .mr-lg-2_text {
@@ -307,6 +322,7 @@ a:hover {
 }
 
 .card-body > p:nth-child(2) {
+    font-size: 28px;
     font-weight: bold
 }
 
@@ -336,7 +352,11 @@ a:hover {
     padding-top: 80px;
     padding-bottom: 200px
 }
- .card shadow1{width: 80%; margin}
+
+.card shadow1 {
+    width: 80%;
+    margin
+}
 
 .section-title {
     font-weight: bold;
@@ -503,7 +523,9 @@ a:hover {
     color: #c8d5ef;
 }
 
-#box3{margin: 0 auto}
+#box3 {
+    margin: 0 auto
+}
 
 /* /icon */
 /* slick slider */
@@ -593,12 +615,11 @@ textarea.form-control {
 @media (max-width: 991px) {
     .navigation.nav-bg {
         padding: 15px 20px;
-        
     }
-    
-    .col-lg-8{width: 100%; height: auto; z-index: 999}
+
+
 }
-}
+
 
 @media (max-width: 991px) {
     .navigation {
@@ -607,48 +628,48 @@ textarea.form-control {
     }
 
 
-.nav {
-    text-align: center;
-    background-color: rgba(255, 246, 218, 0);
-    padding: 10px 0px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    position: fixed;
-    z-index: 999;
-    padding-right: 100px;
-}
+    .nav {
+        text-align: center;
+        background-color: rgba(255, 246, 218, 0);
+        padding: 10px 0px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        position: fixed;
+        z-index: 999;
+        padding-right: 100px;
+    }
 
-.content {
-    height: 2000px;
-}
+    .content {
+        height: 2000px;
+    }
 
-.active {
-    position: fixed;
-    top: 0px;
-}
+    .active {
+        position: fixed;
+        top: 0px;
+    }
 
-.navbar .nav-item .nav-link {
-    font-family: "NanumSquareB";
-    text-transform: uppercase;
-    padding: 15px;
-    display: block
-}
+    .navbar .nav-item .nav-link {
+        font-family: "NanumSquareB";
+        text-transform: uppercase;
+        padding: 15px;
+        display: block
+    }
 
-.navbar .nav-item.active {
-    font-weight: bold;
-}
+    .navbar .nav-item.active {
+        font-weight: bold;
+    }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-}
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+    }
 
-.hero-area {
-    padding: 300px 0 200px;
-    position: relative;
-   
-}
-    
+    .hero-area {
+        padding: 300px 0 200px;
+        position: relative;
+
+    }
+
 
 
 }
@@ -995,6 +1016,24 @@ blockquote {
     .drag-lg-top {
         margin-top: 0;
     }
+    
+}
+
+
+
+@media (max-width: 300px) {
+    .drag-lg-top {
+        margin-top: 0;
+    }
+
+    #box1 {
+        width: 100%;
+        height: auto
+    }
+
+    .col-lg-8 > h1 {
+        z-index: 999
+    }
 }
 
 .page-title-alt .container {
@@ -1101,5 +1140,26 @@ blockquote {
 .filter-controls li.active {
     font-weight: bold;
 }
+
+@media (max-width: 991px) {
+
+    .d-flex_2,
+    .d-flex_4 {
+        float: none;
+        padding-top: 50px
+    }
+    .container_1{}
+}
+
+
+
+@media (min-width: 576px)
+.container_1 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
 
 /*# sourceMappingURL=maps/style.css.map */
